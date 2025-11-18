@@ -8,7 +8,7 @@ public class Jugador {
     private  boolean tieneLlave;
 
     //Constructor
-    Jugador (int x, int y, boolean tieneLlave){
+    Jugador (int x, int y){
         this.x = x;
         this.y = y;
         this.tieneLlave = false;
@@ -35,6 +35,7 @@ public class Jugador {
     public int getY (){
         return  this.y;
     }
+
     public boolean tieneLlave() {
         return this.tieneLlave;
     }
